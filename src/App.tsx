@@ -21,6 +21,9 @@ function App() {
       <nav>
         <ul>
           <li>
+            <Link to={"/"}>home</Link>
+          </li>
+          <li>
             <Link to={"/firstPage"}>first</Link>
           </li>
           <li>
@@ -28,7 +31,8 @@ function App() {
           </li>
         </ul>
       </nav>
-      <Button onClick={onClose}>Закрыть</Button>
+      HOME
+      {/* <Button onClick={onClose}>Закрыть</Button> */}
       <Routes>
         <Route
           path="firstPage"

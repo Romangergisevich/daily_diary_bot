@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+nav ul li {
+  margin: 0 15px 0 15px;
+  color: var(--tg-theme-button-text-colo);
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: underline;
+  color: var(--tg-theme-button-text-colo);
+}
