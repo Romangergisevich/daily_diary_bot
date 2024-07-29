@@ -32,7 +32,7 @@ function App() {
         </ul>
       </nav>
       HOME
-      {/* <Button onClick={onClose}>Закрыть</Button> */}
+      <Button onClick={onClose}>Закрыть</Button>
       <Routes>
         <Route
           path="firstPage"
